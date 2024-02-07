@@ -1,0 +1,146 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: auto;
+    margin-top: 3rem;
+  }
+  .about-containers {
+    flex-wrap: wrap;
+  }
+  #contact,
+  #projects {
+    height: fit-content;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+ 
+  .about-details-container {
+    width: 100%;
+  }
+
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+
+  #profile {
+    margin-bottom: 5rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto 2rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .about__pic-container
+  {
+    width: 375px;
+    height: 375px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #contact
+   {
+    height: 40vh;
+  }
+  #profile {
+    height: 95vh;
+    margin-bottom: 0;
+    margin-top: 1rem;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+ 
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .section__pic-container img {
+    width: 80%;
+   
+  }
+  .about__pic-container {
+    width: auto;
+    height: auto;
+    justify-content: center;
+  }
+  .section__text__p1 {
+    font-size: 1.75rem;
+  
+  }
+  .section__text__p2 {
+    font-size: 1.75rem;
+    margin-bottom: 0;
+  }
+  .title {
+    font-size: 2.5rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+
+  .btn {
+    font-size: 1rem;
+  }
+
+  .socials-container {
+    margin-top: 1rem;
+  }
+}
