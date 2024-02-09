@@ -1,6 +1,6 @@
 .navbar {
-  background-color: #abccb9;
-  height: 80px;
+  background-color: #161a17;
+  height: 110px;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -78,17 +78,11 @@ span {
   margin-right: 2rem;
 }
 
-@media (max-width: 768px) {
- .navbarlinks {
-  display: none;
- } 
- .logo {
-  display: flex;
- }
- #desktop-nav nav {
-  margin-right: 2rem;
-}
-}
+
+
+
+
+
 
 #desktop-nav nav {
   display: flex;
@@ -111,17 +105,46 @@ span {
 }
 
 #desktop-nav a:hover {
-  color: grey;
+  color: #f2786d;
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: #f2786d;
 }
 
 #desktop-nav .logo {
-  font-size: 2rem;
-  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#desktop-nav .logo img {
+  max-height: 90px;
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.5));
 }
 
 #desktop-nav .logo:hover {
   cursor: default;
+}
+
+
+@media (max-width: 1050px) {
+  .navbarlinks {
+   display: none;
+  } 
+  .logo {
+   display: flex;
+  }
+  #desktop-nav nav {
+   margin-right: 2rem;
+ }
+
+ }
+
+ @media screen and (max-width: 1050px) {
+
+  #desktop-nav {
+    margin-right: 0;
+
+  }
 }

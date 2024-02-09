@@ -6,6 +6,7 @@ import { SidebarData } from "./SidebarData";
 import "./Navbar.css";
 import { IconContext } from "react-icons";
 import DesktopNav from "./desktopnav";
+import LogoNombre from "../assets/LogoNombre2.png";
 
 function Navbar() {
   const [sidebar, setSidebar] = useState(false);
@@ -21,7 +22,9 @@ function Navbar() {
               <FaIcons.FaBars onClick={showSidebar} />
             </Link>
             <nav id="desktop-nav">
-              <div className="logo">GUILLERMO FERNÁNDEZ</div>
+              <div className="logo">
+                <img src={LogoNombre} alt="Guillermo Ferández Nutricionista" />
+              </div>
               <div className="navbarlinks">
                 <ul className="nav-links">
                   <li>
