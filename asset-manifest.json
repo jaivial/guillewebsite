@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/guillewebsite/static/css/main.0c2369f6.css",
-    "main.js": "/guillewebsite/static/js/main.725d974c.js",
+    "main.css": "/guillewebsite/static/css/main.658de8b2.css",
+    "main.js": "/guillewebsite/static/js/main.df62526e.js",
     "static/js/592.237dfe42.chunk.js": "/guillewebsite/static/js/592.237dfe42.chunk.js",
     "static/media/about-pic.png": "/guillewebsite/static/media/about-pic.2ba38279e9f4a6bda3c0.png",
     "static/media/project-3.png": "/guillewebsite/static/media/project-3.d5bf2eac8c8937a85bc3.png",
@@ -9,18 +9,22 @@
     "static/media/profile-pic.png": "/guillewebsite/static/media/profile-pic.da0161531eee5c43742d.png",
     "static/media/project-1.png": "/guillewebsite/static/media/project-1.0009f408e02c21b12607.png",
     "static/media/LogoNombre2.png": "/guillewebsite/static/media/LogoNombre2.217a64cb321af43ebc77.png",
+    "static/media/habitosalimentarios.jpeg": "/guillewebsite/static/media/habitosalimentarios.94766aea6fe7206f4028.jpeg",
+    "static/media/educationlogo.png": "/guillewebsite/static/media/educationlogo.a69847f5daf02717e377.png",
+    "static/media/nutricionclinica.jpeg": "/guillewebsite/static/media/nutricionclinica.6609927a50d30730ee2b.jpeg",
     "static/media/whatsappicon.png": "/guillewebsite/static/media/whatsappicon.71a8b7a3df1a22140f46.png",
+    "static/media/sportsnutrition.jpeg": "/guillewebsite/static/media/sportsnutrition.3c2dc45102abdcf912c6.jpeg",
     "static/media/checkmark.png": "/guillewebsite/static/media/checkmark.86728d9a224a2c7c95d4.png",
     "static/media/arrow.png": "/guillewebsite/static/media/arrow.0dfabb0beab795eea0ab.png",
     "static/media/email.png": "/guillewebsite/static/media/email.fd6c9084b62d23ca8d0c.png",
     "static/media/linkedin.png": "/guillewebsite/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "index.html": "/guillewebsite/index.html",
-    "main.0c2369f6.css.map": "/guillewebsite/static/css/main.0c2369f6.css.map",
-    "main.725d974c.js.map": "/guillewebsite/static/js/main.725d974c.js.map",
+    "main.658de8b2.css.map": "/guillewebsite/static/css/main.658de8b2.css.map",
+    "main.df62526e.js.map": "/guillewebsite/static/js/main.df62526e.js.map",
     "592.237dfe42.chunk.js.map": "/guillewebsite/static/js/592.237dfe42.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c2369f6.css",
-    "static/js/main.725d974c.js"
+    "static/css/main.658de8b2.css",
+    "static/js/main.df62526e.js"
   ]
 }
