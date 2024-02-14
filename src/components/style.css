@@ -46,14 +46,13 @@ section {
   display: flex;
   justify-content: center;
   gap: 5rem;
-  height: 80vh;
+  height: auto;
 }
 
 .section__pic-container {
   display: flex;
-  height: 500px;
-  width: 500px;
   margin: auto 0;
+  flex: 2;
 }
 
 .section__pic-container img {
@@ -65,6 +64,7 @@ section {
 .section__text {
   align-self: center;
   text-align: center;
+  flex: 2;
 }
 
 .section__text p {
@@ -84,6 +84,7 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-bottom: 1.5rem;
 }
 
 #socials-container {
@@ -188,7 +189,7 @@ section {
 .details-container {
   padding: 1.5rem;
   flex: 1;
-  background: #f2786d;
+  background: #ee938a;
   color: black;
   border-radius: 2rem;
   border: black 0.12rem solid;
@@ -221,6 +222,20 @@ section {
 
 }
 
+.text-container p {
+  font-size: 22px;
+  text-align: justify;
+  color: rgb(34, 34, 34);
+  line-height: 32px;
+}
+
+#text-container-profile p {
+ color: rgb(85, 85, 85);
+  line-height: 32px;
+  text-align: justify;
+  font-size: 18px;
+}
+
 /* EXPERIENCE SECTION */
 
 #experience {
@@ -231,7 +246,7 @@ section {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
-  margin-bottom: 2rem;
+  
 }
 
 .experience-details-container {
@@ -249,22 +264,50 @@ section {
 }
 .article-container {
   display: flex;
-  text-align: initial;
+  text-align: center;
   flex-wrap: wrap;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   gap: 2.5rem;
-  justify-content: space-around;
+  justify-content: flex-end;
 }
 
 article {
   display: flex;
-  width: 10rem;
-  justify-content: space-around;
+  flex-direction: column;
+  width: 20rem;
+  justify-content: space-between;
   gap: 0.5rem;
 }
 
 article .icon {
   cursor: default;
+}
+
+article p {
+  text-align: justify;
+  margin-top: 0.5rem;
+  font-size: 20px;
+  color:rgb(85, 85, 85);
+}
+
+.nutricionclinicaimg {
+  border-radius: 30px;
+  width: 100%;
+}
+
+#experience-title-container {
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+#experience-title-container .icon {
+  height: 3.5rem;
 }
 
 /* PROJECTS SECTION */

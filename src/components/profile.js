@@ -62,9 +62,14 @@ const ProfileSection = () => {
         className="section__text"
         variants={fadeInRightVariants}
       >
-        <p className="section__text__p1">Hola, soy</p>
-        <h1 className="title">Guillermo Fernández</h1>
-        <p className="section__text__p2">Nutricionista</p>
+        <p className="section__text__p1">Guillermo Fernández</p>
+        <h1 className="title">Nutricionista</h1>
+        <p className="section__text__p2">Transforma tu vida, bocado a bocado</p>
+        <div className="text-container-profile" id="text-container-profile">
+            <p>
+            Como tu nutricionista, mi compromiso es guiarte hacia un bienestar duradero, diseñando planes nutricionales que se adaptan específicamente a tus necesidades y preferencias.<br /> <br /> Entiendo que la nutrición trasciende lo que ponemos en nuestro plato; es acerca de cómo cada elección alimenticia influye en nuestro bienestar general. Mi enfoque se centra en desarrollar un camino personalizado y sostenible hacia la salud. <br /> <br /> Estoy aquí para iniciar contigo este viaje de transformación, acompañándote en cada paso hacia la consecución de tus metas de salud realistas y el logro de una vida plenamente satisfactoria.
+            </p>
+          </div>
         <div className="btn-container">
           <button className="btn btn-color-2" onClick={redirectToTarifas}>
             VER PLANES

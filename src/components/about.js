@@ -6,12 +6,13 @@ import AboutPic from "../assets/about-pic.png";
 import ExperienceIcon from "../assets/experience.png";
 import EducationPic from "../assets/education.png";
 import ArrowPic from "../assets/arrow.png";
+import EducationLogo from "../assets/educationlogo.png";
 
 const AboutSection = () => {
   return (
     <section id="about">
-      <p className="section__text__p1">Get To Know More</p>
-      <h1 className="title">About Me</h1>
+      <p className="section__text__p1">Cónoceme</p>
+      <h1 className="title">Sobre Mi</h1>
       <div className="section-container">
         <div className="about__pic-container">
           <img
@@ -28,34 +29,26 @@ const AboutSection = () => {
                 alt="Experience icon"
                 className="icon"
               />
-              <h3>Experience</h3>
+              <h3>Dietista-Nutricionista</h3>
               <p>
-                2+ years <br />
-                Frontend Development
+                Colegiado (CV1797)
               </p>
             </div>
             <div className="details-container">
               <img
-                src={EducationPic}
+                src={EducationLogo}
                 alt="Education icon"
                 className="icon"
               />
-              <h3>Education</h3>
+              <h3>Grado en Nutrición Humana y Dietética</h3>
               <p>
-                B.Sc. Bachelors Degree
-                <br />
-                M.Sc. Masters Degree
+               Universidad de Valencia (2021)
               </p>
             </div>
           </div>
           <div className="text-container">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
+            Bienvenidos a mi consulta, soy Guillermo Fernández de la Torre, tu aliado en el camino hacia un bienestar integral. Como dietista-nutricionista colegiado (CV1797), mi compromiso es ofrecerte un acompañamiento cercano y personalizado, diseñando planes nutricionales que se ajustan a tus objetivos de salud y estilo de vida. Mi formación y experiencia en el campo de la nutrición son el fundamento sobre el que construyo cada estrategia, siempre con un enfoque basado en la evidencia científica.
             </p>
           </div>
         </div>
